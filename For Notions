@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChiKobi Health Comments</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2e7d32; /* ChiKobi green */
+        }
+    </style>
+</head>
+<body>
+    <h1>Community Feedback</h1>
+    <p>We'd love to hear your thoughts on our Wellness Starter Kit!</p>
+    
+    <!-- CommentBox Container -->
+    <div class="commentbox"></div>
+    
+    <!-- CommentBox Script -->
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <script>
+        commentBox('5643001627934720-proj');
+    </script>
+</body>
+</html>
